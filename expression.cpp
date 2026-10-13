@@ -109,6 +109,9 @@ double Expression::parsePrimary() {
         if (name == "sin") return std::sin(arg);
         if (name == "cos") return std::cos(arg);
         if (name == "tan") return std::tan(arg);
+        if (name == "asin") return std::asin(arg);
+        if (name == "acos") return std::acos(arg);
+        if (name == "atan") return std::atan(arg);
         if (name == "sqrt") return std::sqrt(arg);
         if (name == "abs") return std::fabs(arg);
         if (name == "ln") return std::log(arg);
